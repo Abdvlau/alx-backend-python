@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-""" A module that contains a single function that returns the floor of it's argument"""
+"""Contains a single function that calculates the floor of a number."""
 import math
 
 
-def floor(n: float):
-    """returns the floor of a float"""
+def floor(n: float) -> int:
+    """Returns the floor of a float."""
     return math.floor(n)
