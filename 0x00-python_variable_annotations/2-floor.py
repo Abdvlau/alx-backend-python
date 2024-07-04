@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import math
-""" A module"""
+""" A module that contains a single function that returns the floor of it's argument"""
 
 
 def floor(n: float):
