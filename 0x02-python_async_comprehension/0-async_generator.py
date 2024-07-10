@@ -5,7 +5,7 @@ import random
 from typing import AsyncGenerator
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator() -> AsyncGenerator[float, None, None]:
     """A coroutine that loops 10 times
     asynchronously wait for 1 second
     then yiled a random number between 0 & 10
